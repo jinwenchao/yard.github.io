@@ -277,7 +277,7 @@
     }
 
     function mapConfig() {
-        $.gmap3({
+/*        $.gmap3({
             key: 'AIzaSyAx39JFH5nhxze1ZydH-Kl8xXM3OK4fvcg'
         });
         var map = $('#contact-map');
@@ -343,7 +343,7 @@
         }
         else {
             console.log("Notice: Don't have map on this page!!!");
-        }
+        }*/
     }
 
     function productVariantsAjax() {
@@ -677,7 +677,7 @@
         menuBtnToggle();
         subMenuToggle();
         owlCarousel($('.owl-slider'));
-        mapConfig();
+        //mapConfig();
         // setHeightProduct();
         navigateOwlCarousel();
         countDown();
